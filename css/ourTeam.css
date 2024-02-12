@@ -1,0 +1,62 @@
+/* 0e5283 */
+
+/* h2,h3{
+  color: #0e5283;
+} */
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.ourTeam figure {
+  padding: 30px 0;
+  border-bottom: 3px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ourTeam figure figcaption {
+  padding-left: 20px;
+  width: 80%;
+  line-height: 1.6;
+}
+
+.ourTeam figure img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (max-width: 728px) {
+  .ourTeam figure {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .ourTeam figure img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .ourTeam figure figcaption {
+    padding: 0;
+    width: 90%;
+    line-height: 1.6;
+  }
+}

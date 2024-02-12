@@ -1,0 +1,47 @@
+
+.aboutUs #anilChopra{
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aboutUs .aboutUsPara{
+    padding: 50px 0;
+    line-height: 1.6;
+  }
+  .aboutUs .aboutUsPara .aboutImprint{
+    font-weight: bold;
+  }
+  
+  .aboutUs a{
+    color: #0095ff !important;
+  }
+  
+  
+  .aboutUs ol li::before,
+  .aboutUs ul a::before{
+    content: "\f111";
+    font-family: 'fontAwesome';
+    font-size: 10px;
+    padding:0 10px 0 20px;
+  }
+  
+  .aboutUs a:hover{
+    color: #0E5283 !important;
+  }
+@media screen and (max-width: 580px) {
+    .aboutUs #anilChopra{
+      float: none;
+      padding: 0;
+    }
+    .aboutUs{
+      font-size: 12px;
+      text-align: center;
+    }
+    .aboutUs h3{
+      padding-top: 50px !important;
+      font-size: 30px;
+    }
+    
+  }
