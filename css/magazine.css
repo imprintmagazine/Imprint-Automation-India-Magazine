@@ -1,0 +1,26 @@
+.allMagazine {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-wrap: wrap;
+
+}
+
+.allMagazine ul {
+    text-align: center;
+}
+
+.allMagazine ul a {
+    padding: 20px 0;
+}
+
+.allMagazine img {
+    width: 200px;
+    border: 1px solid #000;
+}
+
+.allMagazine ul figcaption {
+    color: #000;
+    font-weight: bold;
+    padding: 10px 0;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+  <link rel="stylesheet" href="./css/magazine.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- main start here-->
+    <main>
+      <section>
+        <div class="wrapper">
+          <div class="allMagazine">
+            <!-- january february 2024-->
+            <ul>
+              <li>
+                <a href="./assets/magazine/January-February2024.pdf">
+                  <img src="./assets/images/jan-feb-2024.jpg" alt="january-february-2024">
+                  <figcaption>January February 2024</figcaption>
+                </a>
+              </li>
+            </ul>
+
+            <!-- november december 2023-->
+            <ul>
+              <li>
+                <a href="./assets/magazine/November-December2023.pdf">
+                  <img src="./assets/images/nov-dec-2023.jpg" alt="november-december-2023">
+                  <figcaption>November December 2023</figcaption>
+                </a>
+              </li>
+            </ul>
+            <!-- september october 2023-->
+            <ul>
+              <li>
+                <a href="./assets/magazine/September-October2023.pdf">
+                  <img src="./assets/images/sep-oct-2024.jpg" alt="september-october-2023">
+                  <figcaption>September October 2023</figcaption>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main end here-->
+
+    <!-- footer -->
+    <div id="footer"></div>
+  </div>
+
+  <!-- js link for header and footer -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("./header.html");
+      $("#footer").load("./footer.html");
+    });
+  </script>
+</body>
+
+</html>
