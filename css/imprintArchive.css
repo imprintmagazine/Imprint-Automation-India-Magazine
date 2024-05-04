@@ -1,0 +1,9 @@
+.allImprintIssue{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.allImprintIssue img{
+    width: 300px;
+}
