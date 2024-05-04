@@ -21,40 +21,38 @@ header img {
   width: 200px;
 }
 
-.headerTop ul,
+.headerTop .imprintLogos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header ul,
-.headerTop .wrapper,
-.headerBottom .wrapper,
-.headerTop h1 {
+.headerBottom .wrapper{
   display: flex;
 }
 
-.headerTop ul,
 header ul,
-.headerBottom .wrapper,
-.headerTop .wrapper {
+.headerBottom .wrapper {
   justify-content: space-between;
 }
 
-.headerTop .wrapper,
-.headerBottom .wrapper,
-.headerTop h1 {
+.headerBottom .wrapper {
   align-items: center;
 
 }
 
-.headerTop h1 {
-  flex-wrap: wrap;
-  justify-content: center;
-}
+.vidProLogo{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  }
+
 
 .headerTop a {
   color: #000;
 }
 
-/* .headerTop {
-  background-color: #ff0000;
-} */
 
 .indiaAutomationMagazine {
   background-color: #ff0000;
@@ -62,9 +60,13 @@ header ul,
   padding: 10px;
 }
 
-/* .videoProdcastLogo {
-    width: 80px;
-} */
+.videoProdcastLogo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
 
 .videoProdcastLogo a {
   /* text-indent: -9999px; */

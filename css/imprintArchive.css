@@ -2,8 +2,18 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.allImprintIssue ul{
+    padding: 10px;
 }
 
 .allImprintIssue img{
     width: 300px;
 }
+
+.allImprintIssue figcaption{
+    color: #000;
+}
+
